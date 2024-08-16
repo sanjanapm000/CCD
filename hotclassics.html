@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--Custom css-->
+     <link rel="stylesheet" href="style.css">
+     <!--Bootstrap css-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--mobile nav-->
+    <nav class="navbar navbar-expand-lg bg-body-light mobile-nav">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  "></span>
+            </button>
+            <a class="navbar-brand" href="#carouselExampleIndicators"><img src="assets/logo.png" alt="logo"></a>
+            <a class="nav-link text-danger" href="#"><i class="fa-solid fa-magnifying-glass sizen"></i></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger center-underline " aria-current="page"
+                            href="hotclassics.html">Cafe
+                            Menu</a>
+                        <ul class="subnav">
+                            <li><a href="hotclassics.html">FOOD FOR MOOD</a></li>
+                            <li><a href="hotclassics.html">HOT CLASSICS</a></li>
+                            <li><a href="alltimechillers1.html">ALL-TIME CHILLERS</a></li>
+                            <li><a href="alltimechillers2.html">ALL-DAY<br>DELIGHTS</a></li>
+                            <li><a href="sweettooth.html">SWEET TOOTH X 32</a></li>
+                            <li><a href="nutritional.html">Nutritional Info</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="#">E-shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="#">Order Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="CafeCoffeeDay.html">Café Finder/ Café
+                            Locator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="downloadccd.html">Mobile App/CCD
+                            Mobile App</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <ul class="navbar-nav arrange">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#"><i
+                                class="fa-solid fa-magnifying-glass sizen"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger  shape" aria-current="page" href="#"><i
+                                class="fa-regular fa-bell size"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger " aria-current="page" href="#"><i
+                                class="fa-regular fa-circle-user sizen"></i></a>
+                    </li>
+                </ul> -->
+
+            
+        </div>
+    </nav>
+    <!--desktop nav-->
+    <nav class="navbar navbar-expand-lg bg-body-light desktop-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="logo" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger center-underline" aria-current="page" href="hotclassics.html">Cafe Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="#">E-shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="#">Order Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="CafeCoffeeDay.html">Café Finder/ Café Locator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger center-underline" href="downloadccd.html">Mobile App/CCD Mobile App</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav arrange">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#"><i class="fa-solid fa-magnifying-glass sizen"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger  shape" aria-current="page" href="#"><i
+                                class="fa-regular fa-bell size">
+                                <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                        style="font-size: 8px;">
+                                        1
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                            </i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger " aria-current="page" href="#"><i class="fa-regular fa-circle-user sizen"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-img">
+        <img src="assets/desktop-new menu-cafe-coffee-day_1.jpg" alt="" width="100%">
+    </div>
+    <div class="bg-img1">
+        <img src="assets/mobile-new-menu-cafe-coffee-day.jpg" alt="" width="100%">
+    </div>
+
+    <div class="navbar items container-fluid">
+       <a href="hotclassics.html">HOT CLASSICS</a>
+       <a href="alltimechillers1.html">ALL-TIME CHILLERS</a>
+       <a href="alltimechillers2.html">ALL-TIME CHILLERS</a>
+       <a href="alldaydelights.html">ALL-DAY DELIGHTS</a>
+       <a href="sweettooth.html">SWEET TOOTH X 32</a>
+       <a href="nutritional.html">NUTRITIONAL INFO</a>
+    </div>
+    <div class="heroimg">
+        <img src="assets/HOT CLASSICS.jpg" alt="hotclassics" width="100%">
+    </div>
+    <div class="heroimg1">
+        <img src="assets/HOT CLASSICS 1.jpg" alt="hotclassics" width="100%">
+    </div>
+    <div class="heroimg2">
+        <img src="assets/HOT CLASSICS 2.jpg" alt="hotclassics" width="100%">
+    </div>
+</div>
+<div class="links">
+   <div class="insta">
+       <i class="fa-brands fa-instagram instai"></i>
+   </div>
+   <div class="fb">
+       <i class="fa-brands fa-facebook-f fbi"></i>
+   </div>
+   <div class="yt">
+       <i class="fa-brands fa-youtube yti"></i>
+   </div>
+   <div class="twit">
+       <i class="fa-brands fa-twitter twiti"></i>
+   </div>
+   <div class="lin">
+       <i class="fa-brands fa-linkedin lini"></i>
+   </div>
+</div>
+
+
+<div class="footersec">
+    <div class="main-footer">
+        <div class="footer-part">
+            <footer>
+
+                <div class="footer-item">
+                    <h5>Quick Links</h5>
+                    <a href="">Cafe menu </a>
+                    <a href=""> Café Finder/ Café Locator</a>
+                    <a href="">Customer Care</a>
+                </div>
+                <div class="footer-item">
+                    <h5>Cafe Menu</h5>
+                    <a href="">Food For Mood </a>
+                    <a href=""> Hot Classic</a>
+                    <a href="">All-Time Chillers</a>
+                    <a href="">All-Day Delights</a>
+                    <a href=""> Sweet Tooth X 32</a>
+                    <a href="">Nutritional Info</a>
+                </div>
+                <div class="footer-item">
+                    <h5> Shop</h5>
+                    <a href="">Coffee Mugs & Cups </a>
+                    <a href="">Coffee Makers & Wakecup </a>
+                    <a href="">Coffee Powders Gifts</a>
+                </div>
+                <div class="footer-item">
+                    <h5>Business</h5>
+                    <a href=""> Lease Enquiry</a>
+                    <a href="">Advertise With Us</a>
+                    <a href=""> Coffee Vending Machine</a>
+                    <a href=""> Outdoor Catering Service</a>
+                    <a href="">Contact Us</a>
+                </div>
+                <div class="footer-item">
+                    <h5>About Us</h5>
+                    <a href="">Awards </a>
+                    <a href="">Business </a>
+                    <a href="">Governance</a>
+                    <a href="">Bean to Cup</a>
+                    <a href="">News & Events</a>
+                    <a href="">Careers</a>
+                    <a href=""> Contact Us</a>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>© Cafe Coffee Day. All rights reserved.</p>
+    </div>
+</div>
+<!---->
+
+<footer class="footer-section">
+    <div class="footersec-1">
+        <a href="">Café Finder/ Café Locator</a>
+        <a href="">Cafe menu </a>
+        <a href="">E-Shop</a>
+        <a href="">Business</a>
+        <a href="">Contact Us</a>
+
+    </div>
+
+
+</footer>
+<div class="copyright">
+    <p>© Cafe Coffee Day. All rights reserved.</p>
+</div>
+
+     <!--custom js-->
+     <script src="script.js" defer></script>
+     <!--Bootstrap js-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"></script>
+</body>
+</html>
